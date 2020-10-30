@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clock Project</title>
+    <link rel="stylesheet" href="./css/mainStyle.css">
+</head>
+<body>
+    <div class="calblock">
+        <div class="calhead">
+            <h2>TIP CALCULATOR</h2>
+        </div>
+        <div class="calbody">
+            <label>How much was your bill?</label>
+            $ <input type="text" id="billAmount" placeholder="Bill Amount"><br><br>
+            <label>How was your service?</label>
+            <select id="choices">
+                <option value="">-- Choose Option --</option>
+                <option value="excell">30% - Outstanding</option>
+                <option value="good">20% - Good</option>
+                <option value="okay">15% - Was OK</option>
+                <option value="bad">10% - Bad</option>
+                <option value="terrible"> 5% - Terrible</option>
+            </select><br><br>
+            <label>How many people share the bill?</label>
+             <input type="text" id="sharingPeople" placeholder="Number of People"><br><br>
+             <button id="submit" value="submit">CALCULATE!</button>
+             <div id="output"></div>
+        </div>
+    </div>
+    <script src="./js/mainJs.js"></script>
+</body>
+</html>
