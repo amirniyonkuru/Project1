@@ -1,2 +1,3 @@
+it basically calculates the amount of money you will give as a tip taking into consideration of the whole bill amount and the quality of service you received and the number of people who will share the bill. you can change the percentage of tip if you want and you can adjust it accordingly.
 This project can only be used for learning purpose...
 You can write to me if you need any help regarding my codes!
